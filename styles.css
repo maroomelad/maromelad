@@ -197,6 +197,7 @@ button:hover, .btn:hover{
 
 .langs{
   display: flex;
+  flex-wrap: wrap;
   margin-top: 5%;
 }
 
@@ -214,7 +215,23 @@ button:hover, .btn:hover{
   color: #d4af6aac;
 }
 
+@media (max-width: 700px){
 
+.langs p{
+  padding: 10px;
+  background-color: #1318206b;
+  margin: 3px;
+  border-radius: 6px;
+  transition: 500ms;
+  font-size: 15px;
+}
+
+.langs p:hover{
+  padding: 10px;
+  font-size: 18px;
+  color: #d4af6aac;
+}
+}
 
 
 /* ===== Projects ===== */
